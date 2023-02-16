@@ -5,10 +5,12 @@ function Recipe({title, calories, image}) {
   return (
         <>
         <div className='product'>
+         <ul>  
+        <img src={image} alt='' />
     
         <p className='title'>{title}</p>
         <p className='product'>{calories}</p>
-        <img src={image} alt='' />
+        </ul> 
       
     </div>
         </>
